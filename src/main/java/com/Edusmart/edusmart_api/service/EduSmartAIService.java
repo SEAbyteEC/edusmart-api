@@ -14,7 +14,7 @@ public class EduSmartAIService {
         // Usar clave API por defecto o desde variables de entorno
         String apiKey = System.getenv("OPENAI_API_KEY");
         if (apiKey == null || apiKey.isEmpty()) {
-            apiKey = "sk-demo"; // Clave demo para desarrollo
+            apiKey = "Espe123"; 
         }
         this.advertisingAI = AiServices.builder(AdvertisingAI.class)
                 .chatLanguageModel(OpenAiChatModel.withApiKey(apiKey))
